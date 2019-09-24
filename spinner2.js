@@ -5,6 +5,6 @@ let spinnerAnimation = ['\r|   ', '\r/   ', '\r-   ', '\r\\   '];
 let wait = 100;
 
 for (const animation of spinnerAnimation) {
-  setTimeout(() =>  process.stdout.write(animation), wait);
+  setTimeout(() =>  process.stdout.write(animation), wait );
   wait += 200;
 }
